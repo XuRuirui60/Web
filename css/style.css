@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #000000;
     padding-top: 80px;
-    background-image: url('/images/背景.png');
+    background-image: url('/Web/images/背景.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

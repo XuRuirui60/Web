@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    padding-top: 80px;
+}
+
+header {
+    background-color: #2d2d2d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.logoT {
+    color: #ffffff;
+    font-family: Archivo Narrow, 'Nunito Sans', -apple-system, system-ui, sans-serif;
+    font-size: 20px;
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+nav {
+    padding: 0.5em;
+    text-align: center;
+    float: right;
+    padding: 0px 30px;
+}
+
+nav a {
+    color: #ffffff;
+    font-family: Archivo Narrow, 'Nunito Sans', -apple-system, system-ui, sans-serif;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-family: Archivo Narrow, 'Nunito Sans', -apple-system, system-ui, sans-serif;
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.preset {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 15px;
+    margin: 20px 10px;
+}
+
+.preset-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 三個等寬的列 */
+    grid-gap: 10px;
+    /* 格子之間的間隔 */
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.s-img-wrapper {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.preset-products img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.product-name {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+}
+
+.price {
+    background-color: #ffffff;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.price-container {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+}
+
+section:first-child {
+    margin-top: 80px;
+}
+
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
